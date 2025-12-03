@@ -91,11 +91,10 @@ def translate_docx_by_paragraph(
 
 
 def main():
-    st.title("PDF → DOCX Converter (with optional translation)")
+    st.title("PDF → DOCX Converter & Translator")
 
     st.markdown(
-        "Upload a PDF, optionally translate the converted Word document, "
-        "and optionally convert the translated document to PDF."
+        "Upload a PDF, optionally translate the converted Word document"
     )
 
     uploaded_file = st.file_uploader(
