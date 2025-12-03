@@ -1,2 +1,5 @@
+deep_translator==1.11.4
+docx2pdf==0.1.8
 pdf2docx==0.5.8
+python_docx==1.1.2
 streamlit==1.51.0
